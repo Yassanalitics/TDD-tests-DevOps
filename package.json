@@ -1,0 +1,28 @@
+{
+  "name": "tdd-tests-devops",
+  "version": "1.0.0",
+  "description": "Aula pratica de testes unitarios com vitest e tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yassanalitics/TDD-tests-DevOps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Yassanalitics/TDD-tests-DevOps/issues"
+  },
+  "homepage": "https://github.com/Yassanalitics/TDD-tests-DevOps#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.2",
+    "vitest": "^4.1.2"
+  }
+}
